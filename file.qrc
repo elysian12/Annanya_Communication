@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="newPrefix">
-    <file>cil-menu.png</file>
-    <file>cil-window-maximize.png</file>
-    <file>cil-window-minimize.png</file>
-    <file>cil-x-circle.png</file>
-    <file>profile (1).png</file>
-  </qresource>
-</RCC>
