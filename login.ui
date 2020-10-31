@@ -208,8 +208,15 @@ QPushButton:hover{
        </item>
        <item>
         <widget class="QFrame" name="frame_2">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="styleSheet">
-          <string notr="true">background-color:none;</string>
+          <string notr="true">color: rgb(137, 142, 125);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -343,6 +350,42 @@ QPushButton:hover{
           </property>
           <property name="scaledContents">
            <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>340</y>
+            <width>80</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>80</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border-radius:10px;
+	background-color: rgb(30, 30, 30)
+
+}
+QPushButton:hover{
+			
+	color: rgb(0, 0, 0);
+	background-color: rgb(85, 170, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Sign Up</string>
           </property>
          </widget>
         </widget>
